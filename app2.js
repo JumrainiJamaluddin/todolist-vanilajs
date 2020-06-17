@@ -1,14 +1,14 @@
 
-const changeProjectHeadingTitle = (title) => {
-    const projectTitle = document.querySelector("#project-title");
+// const changeProjectHeadingTitle = (title) => {
+//     const projectTitle = document.querySelector("#project-title");
 
-    if (typeof title === 'string') {
-        projectTitle.textContent = title;
-    } else {
-        console.error("your argumen is not a string")
-    }
-}
-changeProjectHeadingTitle("woww")
+//     if (typeof title === 'string') {
+//         projectTitle.textContent = title;
+//     } else {
+//         console.error("your argumen is not a string")
+//     }
+// }
+// changeProjectHeadingTitle("woww")
 // // // function definition
 // // const perpangkatan = function (n) {
 // //     return n * n;
